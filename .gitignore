@@ -34,3 +34,4 @@ oci-api-key/
 wallet/
 db_config.json
 config
+variables.json
