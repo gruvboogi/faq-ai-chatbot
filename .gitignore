@@ -2,18 +2,31 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
 # Virtual environment
 venv/
+ENV/
 
 # Distribution / packaging
 .Python
 dist/
 build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
 *.egg-info/
+.installed.cfg
+*.egg
 
 # VS Code settings
 .vscode/
@@ -34,4 +47,11 @@ oci-api-key/
 wallet/
 db_config.json
 config
-variables.json
+
+# API 키 파일
+api_config.json
+
+# IDE 관련
+.idea/
+*.swp
+*.swo
