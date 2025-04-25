@@ -28,3 +28,9 @@ Thumbs.db
 
 # Ignore logs
 *.log
+
+# OCI, Wallet, DB config, 기타 제외 파일/폴더
+oci-api-key/
+wallet/
+db_config.json
+config
