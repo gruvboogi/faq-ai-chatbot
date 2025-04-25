@@ -48,10 +48,15 @@ wallet/
 db_config.json
 config
 
-# API 키 파일
+# API 관련 파일
 api_config.json
+gemini.py
+upstage.py
 
 # IDE 관련
 .idea/
 *.swp
 *.swo
+
+# Streamlit 앱 파일 제외 (st_로 시작하는 파일만 포함)
+!st_*.py
